@@ -3,3 +3,4 @@
 - Customize Wilder.nvim interface
 - Take a look at diffview.nvim
 - implement neocord
+- Customize alpha menu

@@ -1,0 +1,5 @@
+{
+  plugins.cursorline = {
+    enable = true;
+  };
+}

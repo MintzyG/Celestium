@@ -12,5 +12,6 @@
     ./which-key.nix
     ./toggleterm.nix
     ./undotree.nix
+    ./neocord.nix
   ];
 }

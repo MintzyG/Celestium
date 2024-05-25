@@ -4,7 +4,7 @@
     settings = {
       auto_update = true;
       blacklist = [];
-      # client_id = "1157438221865717891";
+      client_id = "220587542079209472";
       debounce_timeout = 10;
       editing_text = "Editing...";
       enable_line_number = true;

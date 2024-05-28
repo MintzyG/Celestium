@@ -9,6 +9,7 @@
         gopls.enable = true;
         nixd.enable = true;
         ruff-lsp.enable = true;
+        texlab.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";

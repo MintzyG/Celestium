@@ -1,17 +1,17 @@
 {
   imports = [
-    ./comments.nix
-    ./todo.nix
-    ./gitsigns.nix
-    ./cursorline.nix
-    ./auto-save.nix
     ./auto-pairs.nix
+    ./auto-save.nix
+    ./comments.nix
+    ./cursorline.nix
+    ./gitsigns.nix
     ./indent-blankline.nix
-    ./wilder.nix
     ./telescope.nix
-    ./which-key.nix
+    ./todo.nix
     ./toggleterm.nix
     ./undotree.nix
-    ./neocord.nix
+    ./vimtex.nix
+    ./which-key.nix
+    ./wilder.nix
   ];
 }

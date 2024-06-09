@@ -11,6 +11,7 @@
     ./toggleterm.nix
     ./undotree.nix
     ./vimtex.nix
+    ./vim-tmux-navigator.nix
     ./which-key.nix
     ./wilder.nix
   ];

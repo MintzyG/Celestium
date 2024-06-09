@@ -10,4 +10,9 @@
     maplocalleader = " ";
     have_nerd_font = true;
   };
+
+  clipboard = {
+    register = "unnamedplus";
+    providers.wl-copy.enable = true;
+  };
 }

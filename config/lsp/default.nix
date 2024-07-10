@@ -24,9 +24,6 @@
         "K" = "hover";
       };
     };
-    lsp-lines = {
-      enable = true;
-      currentLine = true;
-    };
   };
+  diagnostics.virtual_lines.only_current_line = true;
 }

@@ -5,6 +5,10 @@
       servers = {
         bashls.enable = true;
         clangd.enable = true;
+        emmet-ls = true;
+        html.enable = true;
+        jsonls.enable = true;
+        cssls.enable = true;
         elixirls.enable = true;
         gopls.enable = true;
         java-language-server.enable = true;

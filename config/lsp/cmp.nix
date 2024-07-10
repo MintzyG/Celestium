@@ -19,6 +19,10 @@
           end
         '';
         sources = [
+          {name = "cssls";}
+          {name = "emmet_ls";}
+          {name = "html";}
+          {name = "jsonls";}
           { name = "nvim_lsp"; }
           { name = "luasnip"; }
           {

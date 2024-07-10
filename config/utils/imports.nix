@@ -6,6 +6,7 @@
     ./cursorline.nix
     ./gitsigns.nix
     ./indent-blankline.nix
+    ./noice.nix
     ./telescope.nix
     ./todo.nix
     ./toggleterm.nix

@@ -7,6 +7,7 @@
     cmp-nvim-lsp = { enable = true; };
     cmp-path = { enable = true; };
     cmp_luasnip = { enable = true; };
+    cmp-cmdline = { enable = true; };
 
     cmp = {
       enable = true;
@@ -26,6 +27,7 @@
           }
           { name = "nvim_lua"; }
           { name = "path"; }
+          { name = "cmdline"; }
         ];
 
         formatting = {
@@ -119,4 +121,28 @@
       };
     };
   };
+  extraConfigLua = ''
+    -- Extra options for cmp-cmdline setup
+    local cmp = require("cmp")
+    cmp.setup.cmdline("/", {
+      mapping = cmp.mapping.preset.cmdline(),
+      sources = {
+        { name = "buffer" },
+      }
+    })
+
+    cmp.setup.cmdline(":", {
+      mapping = cmp.mapping.preset.cmdline(),
+      sources = cmp.config.sources({
+        { name = "path" },
+      }, {
+        {
+          name = "cmdline",
+          option = {
+            ignore_cmds = { "Man", "!" },
+          },
+        },
+      }),
+    })
+  '';
 }

@@ -26,4 +26,5 @@
     };
   };
   diagnostics.virtual_lines.only_current_line = true;
+  filetype.extension.gohtml = "html";
 }

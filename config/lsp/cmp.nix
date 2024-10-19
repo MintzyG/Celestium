@@ -23,8 +23,8 @@
           {name = "emmet_ls";}
           {name = "html";}
           {name = "jsonls";}
-          { name = "nvim_lsp"; }
-          { name = "luasnip"; }
+          {name = "nvim_lsp";}
+          {name = "luasnip";}
           {
             name = "buffer";
             option.get_bufnrs.__raw = "vim.api.nvim_list_bufs";

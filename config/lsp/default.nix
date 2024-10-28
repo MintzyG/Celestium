@@ -5,7 +5,7 @@
       servers = {
         bashls.enable = true;
         clangd.enable = true;
-        emmet-ls.enable = true;
+        emmet_ls.enable = true;
         html.enable = true;
         jsonls.enable = true;
         cssls.enable = true;

@@ -4,8 +4,10 @@
     ./auto-save.nix
     ./comments.nix
     ./cursorline.nix
+    ./diffview.nix
     ./gitsigns.nix
     ./indent-blankline.nix
+    ./lazygit.nix
     ./noice.nix
     ./telescope.nix
     ./todo.nix
@@ -15,5 +17,6 @@
     ./vim-tmux-navigator.nix
     ./which-key.nix
     ./wilder.nix
+    ./yazi.nix
   ];
 }

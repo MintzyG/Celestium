@@ -20,6 +20,12 @@
     }
     {
       mode = "n";
+      key = "<leader>c";
+      options.silent = true;
+      action = ":bd<CR>";
+    }
+    {
+      mode = "n";
       key = "<leader>gg";
       options.silent = true;
       action = ":LazyGit<CR>";

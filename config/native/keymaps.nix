@@ -40,7 +40,7 @@
       mode = "n";
       key = "<leader>y";
       options.silent = true;
-      action = "Yazi<CR>";
+      action = ":Yazi<CR>";
     }
   ];
 }

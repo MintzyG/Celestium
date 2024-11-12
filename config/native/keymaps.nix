@@ -48,5 +48,11 @@
       options.silent = true;
       action = ":Yazi<CR>";
     }
+    {
+      mode = "n";
+      key = "<leader>ts";
+      options.silent = true;
+      action = ":TSJToggle<CR>";
+    }
   ];
 }

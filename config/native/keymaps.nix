@@ -54,5 +54,11 @@
       options.silent = true;
       action = ":TSJToggle<CR>";
     }
+    {
+      mode = "v";
+      key = "<leader>s";
+      options.silent = true;
+      action = ":CodeSnap<CR>";
+    }
   ];
 }

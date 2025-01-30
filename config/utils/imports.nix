@@ -2,6 +2,7 @@
   imports = [
     ./auto-pairs.nix
     ./auto-save.nix
+    ./codesnap.nix
     ./comments.nix
     ./cursorline.nix
     ./diffview.nix

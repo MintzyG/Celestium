@@ -5,6 +5,9 @@
       servers = {
         bashls.enable = true;
         clangd.enable = true;
+        ts_ls.enable = true;
+        tailwindcss.enable = true;
+        eslint.enable = true;
         emmet_ls.enable = true;
         html.enable = true;
         jsonls.enable = true;

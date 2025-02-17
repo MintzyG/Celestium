@@ -8,6 +8,8 @@
       };
       formatting = {
         gofmt.enable = true;
+        prettier.enable = true;
+        prettier.disableTsServerFormatter = true;
         goimports.enable = true;
         nixfmt.enable = true;
         markdownlint.enable = true;

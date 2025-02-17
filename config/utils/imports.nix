@@ -19,5 +19,6 @@
     ./which-key.nix
     ./wilder.nix
     ./yazi.nix
+    ./ts-autotag.nix
   ];
 }

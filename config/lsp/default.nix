@@ -3,21 +3,22 @@
     lsp = {
       enable = true;
       servers = {
-        bashls.enable = true;
-        clangd.enable = true;
-        ts_ls.enable = true;
-        tailwindcss.enable = true;
-        eslint.enable = true;
-        emmet_ls.enable = true;
-        html.enable = true;
-        jsonls.enable = true;
-        cssls.enable = true;
         #elixirls.enable = true;
-        gopls.enable = true;
         #java-language-server.enable = true;
-        nixd.enable = true;
         #ruff-lsp.enable = true;
         #texlab.enable = true;
+        bashls.enable = true;
+        clangd.enable = true;
+        cssls.enable = true;
+        emmet_ls.enable = true;
+        eslint.enable = true;
+        gopls.enable = true;
+        html.enable = true;
+        jsonls.enable = true;
+        nixd.enable = true;
+        qmlls.enable = true;
+        tailwindcss.enable = true;
+        ts_ls.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
@@ -28,6 +29,6 @@
       };
     };
   };
-  diagnostics.virtual_lines.only_current_line = true;
+  diagnostic.settings.virtual_lines.only_current_line = true;
   filetype.extension.gohtml = "html";
 }

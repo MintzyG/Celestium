@@ -9,6 +9,7 @@
         #texlab.enable = true;
         bashls.enable = true;
         clangd.enable = true;
+        csharp_ls.enable = true;
         cssls.enable = true;
         elixirls.enable = true;
         emmet_ls.enable = true;

@@ -5,7 +5,7 @@
     ./imports.nix
   ];
 
-  colorschemes.dracula.enable = true;
+  colorschemes.everforest.enable = true;
 
   globals = {
     mapleader = " ";
